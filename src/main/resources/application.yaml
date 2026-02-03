@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: First-project
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/JournalDb
+      database: JournalDb
+      auto-index-creation: true
+
+server:
+  port: 9090
+
+logging:
+  level:
+    org.springframework.data.mongodb.core: DEBUG
+    org.springframework.data.mongodb: DEBUG
